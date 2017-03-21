@@ -1,4 +1,5 @@
 import React from 'react';
+import './header.css';
 var classNames = require('classnames');
 import linkedin from '../../assets/images/linkedin.png';
 import github from '../../assets/images/github.png';

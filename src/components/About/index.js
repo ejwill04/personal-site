@@ -1,4 +1,5 @@
 import React from 'react';
+import './about.css';
 import AboutMeSection from './aboutMeSection'
 
 const About = () => {

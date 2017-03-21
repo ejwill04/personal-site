@@ -1,4 +1,5 @@
 import React from 'react';
+import './projects.css';
 import github from '../../assets/images/github.png';
 import twodobox from '../../assets/images/project-screenshots/twodobox.png';
 import filmfavs from '../../assets/images/project-screenshots/filmfavs.png';

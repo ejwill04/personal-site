@@ -1,4 +1,5 @@
 import React from 'react';
+import './hero.css';
 import ReactDOM from 'react-dom'
 import headshot from '../../assets/hero-images/headshot.jpg';
 import joshtree from '../../assets/hero-images/joshtree.png';
