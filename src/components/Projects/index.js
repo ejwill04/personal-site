@@ -1,13 +1,10 @@
 import React from 'react';
 import './projects.css';
 import github from '../../assets/images/github.png';
-import twodobox from '../../assets/images/project-screenshots/twodobox.png';
 import filmfavs from '../../assets/images/project-screenshots/filmfavs.png';
-import frogger from '../../assets/images/project-screenshots/frogger.png';
 import shootthoubreeze from '../../assets/images/project-screenshots/shootthoubreeze.png';
-import weathrly from '../../assets/images/project-screenshots/weathrly.png';
-import chucknorris from '../../assets/images/project-screenshots/chucknorris.png';
 import neumann from '../../assets/images/project-screenshots/neumann.png';
+import snipIt from '../../assets/images/project-screenshots/snip-it.png';
 
 const Projects = () => {
   return (
@@ -16,23 +13,32 @@ const Projects = () => {
       <div className='project-info-wrapper'>
 
       <div className='project'>
-        <img
-          className='project-snapshot'
-          src={neumann} />
+        <a
+          target='_blank'
+          href='https://neumann.herokuapp.com/'>
+          <img
+            alt='neumann screenshot'
+            className='project-snapshot'
+            src={neumann} />
+        </a>
         <div className='project-desc-wrapper'>
           <h3 className='project-name'>Neumann</h3>
-          <p className='project-description'>Turing student job portal</p>
-          <p className='project-description project-tech'>React - React Router - Redux - Node - Sass</p>
+          <p className='project-description'>Gather and share career information</p>
+          <p className='project-description project-tech'>React - React Router - Node - Express - Sass</p>
           <a className='project-link'
             target='_blank'
-            href='https://github.com/ejwill04/self-directed-project'>
-            <img src={github} className='media-link'/>
+            href='https://github.com/ejwill04/neumann'>
+            <img
+              alt='neumann GitHub link'
+              src={github}
+              className='media-link'/>
           </a>
         </div>
       </div>
 
       <div className='project'>
         <img
+          alt='filmFavs screenshot'
           className='project-snapshot'
           src={filmfavs} />
         <div className='project-desc-wrapper'>
@@ -42,14 +48,37 @@ const Projects = () => {
           <a className='project-link'
             target='_blank'
             href='https://github.com/ejwill04/movie-tracker'>
-            <img src={github} className='media-link'/>
+            <img
+              alt='filmFavs GitHub link'
+              src={github}
+              className='media-link'/>
           </a>
         </div>
       </div>
 
+      <div className='project'>
+        <img
+          alt='snip-it screenshot'
+          className='project-snapshot'
+          src={snipIt} />
+        <div className='project-desc-wrapper'>
+          <h3 className='project-name'>snip-it</h3>
+          <p className='project-description'>Desktop screenshop management tool</p>
+          <p className='project-description project-tech'>Electron - React - Sass</p>
+          <a className='project-link'
+            target='_blank'
+            href='https://github.com/ejwill04/snip-it'>
+            <img
+              alt='snip-it GitHub link'
+              src={github}
+              className='media-link'/>
+          </a>
+        </div>
+      </div>
 
       <div className='project'>
         <img
+          alt='shoot thou breeze screenshot'
           className='project-snapshot'
           src={shootthoubreeze} />
         <div className='project-desc-wrapper'>
@@ -59,71 +88,10 @@ const Projects = () => {
           <a className='project-link'
             target='_blank'
             href='https://github.com/ejwill04/shoot-the-breeze'>
-            <img src={github} className='media-link'/>
-          </a>
-        </div>
-      </div>
-
-      <div className='project'>
-        <img
-          className='project-snapshot'
-          src={twodobox} />
-        <div className='project-desc-wrapper'>
-          <h3 className='project-name'>2DoBox</h3>
-          <p className='project-description'>A reminder app</p>
-          <p className='project-description project-tech'>JavaScript</p>
-          <a className='project-link'
-            target='_blank'
-            href=''>
-            <img src={github} className='media-link'/>
-          </a>
-        </div>
-      </div>
-
-      <div className='project'>
-        <img
-          className='project-snapshot'
-          src={chucknorris} />
-        <div className='project-desc-wrapper'>
-          <h3 className='project-name'>Chuck Norris Jokes</h3>
-          <p className='project-description'>Get those Chuck Norris jokes</p>
-          <p className='project-description project-tech'>JavaScript - React - React Router - Sass</p>
-          <a className='project-link'
-            target='_blank'
-            href=''>
-            <img src={github} className='media-link'/>
-          </a>
-        </div>
-      </div>
-
-      <div className='project'>
-        <img
-          className='project-snapshot'
-          src={weathrly} />
-        <div className='project-desc-wrapper'>
-          <h3 className='project-name'>Weathrly</h3>
-          <p className='project-description'>Check local weather using API</p>
-          <p className='project-description project-tech'>JavaScript - React</p>
-          <a className='project-link'
-            target='_blank'
-            href=''>
-            <img src={github} className='media-link'/>
-          </a>
-        </div>
-      </div>
-
-      <div className='project'>
-        <img
-          className='project-snapshot'
-          src={frogger} />
-        <div className='project-desc-wrapper'>
-          <h3 className='project-name'>Frogger</h3>
-          <p className='project-description'>The classic arcade game frogger</p>
-          <p className='project-description project-tech'>JavaScript - Canvas</p>
-          <a className='project-link'
-            target='_blank'
-            href='https://github.com/ejwill04/frogger'>
-            <img src={github} className='media-link'/>
+            <img
+              alt='shoot thou breeze GitHub link'
+              src={github}
+              className='media-link'/>
           </a>
         </div>
       </div>

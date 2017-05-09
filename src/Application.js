@@ -19,13 +19,14 @@ export default class Application extends React.Component {
   }
 
   render() {
+    let { sectionDisplayed } = this.state
     return (
       <div>
         <Header
           displayBody={this.displayBody}
         />
-        {this.state.sectionDisplayed !== 'Projects' ? <Hero /> : null}
-        {this.state.sectionDisplayed === 'Projects' ? <Projects /> : <About />}
+        {sectionDisplayed !== 'Projects' ? <Hero /> : null}
+        {sectionDisplayed === 'Projects' ? <Projects /> : <About />}
         <Footer />
       </div>
     );
