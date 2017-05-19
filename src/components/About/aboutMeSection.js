@@ -11,7 +11,7 @@ export default () => {
 
       <a
         className='resume-link'
-        href='https://drive.google.com/file/d/0B-ucuTQSrjCnMnhGaTlERWc0RFE/view?usp=sharing'
+        href='https://drive.google.com/file/d/0B-ucuTQSrjCnLUtEUWpacFVncDg/view?usp=sharing'
         target="_blank">
         <h3>check out my resume here</h3>
       </a>
